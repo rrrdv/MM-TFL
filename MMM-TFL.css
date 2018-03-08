@@ -1,0 +1,133 @@
+@font-face {
+  font-family: "mylondon";
+  src: url("fonts/mylondon.eot");
+  src: url("fonts/mylondon.eot?#iefix") format("embedded-opentype"),
+       url("fonts/mylondon.woff") format("woff"),
+       url("fonts/mylondon.ttf") format("truetype"),
+       url("fonts/mylondon.svg#mylondon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+[class^="icon-"]:before, [class*=" icon-"]:before,
+[class^="icon-"]:after, [class*=" icon-"]:after {
+  font-family: mylondon;
+        font-size: 25px;
+font-style: normal;
+}
+
+.icon-min:before { content: "\f100"; }
+.icon-max:before { content: "\f101"; }
+.icon-tube:before { content: "\f102"; }
+.icon-clean:before { content: "\f103"; }
+.icon-techcrunch:before { content: "\f104"; }
+.icon-bbc:before { content: "\f105"; }
+.icon-underground:before { content: "\f106"; }
+
+.icon-underground {
+  position: absolute;
+  left: -30px;
+  top: -2px;
+}
+
+.dlr .icon-underground {color: #00A4A7;}
+.jubilee .icon-underground {color: #A0A5A9;}
+.piccadilly .icon-underground {color: #003688;}
+
+
+.MMM-TFL ul {
+  min-width: 235px;
+  font-family: sans-serif;
+
+  list-style: none;
+  display: inline-flex;
+  flex-direction: column;
+  padding: 0px;
+  width: 100%;
+  font-size: medium;
+  line-height: 16.5px;
+}
+
+.MMM-TFL li {
+  flex: 1;
+  display: flex;
+}
+
+.left {
+  float: left;
+  text-align: left;
+}
+
+.status {
+  flex: 1;
+  transition: all 0.5s ease;
+  float: right;
+  padding: 7px;
+}
+
+.line {
+  flex: 1;
+  text-align: left;
+  padding: 7px;
+}
+
+li span.good-service {
+  color: white;
+  font-weight: normal;
+}
+
+.status-problem {
+  color: #ffce00;
+  font-weight: 900;
+}
+
+.central {
+  color: #dc241f;
+}
+
+.bakerloo {
+  color: #894e24;
+}
+.circle {
+  color: #ffce00;
+}
+.district {
+  color: #007229;
+}
+.hammersmith-city {
+  color: #d799af;
+}
+.jubilee {
+  color: #6a7278;
+}
+.metropolitan {
+  color: #751056;
+}
+.northern {
+  color: #000000;
+}
+.piccadilly {
+  color: #0019a8;
+}
+.victoria {
+  color: #00a0e2;
+}
+.waterloo-city {
+  color: #76d0bd;
+}
+.dlr {
+  color: #00AFAD;
+}
+.london-overground {
+  color: #E86A10;
+}
+.tram {
+  color: #66CC00;
+}
+.tfl-rail {
+  color: #0019A8;
+}
+.national-rail {
+  color: #EEEEEE;
+}
